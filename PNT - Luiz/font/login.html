@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>LOGIN</title>
+
+</head>
+<body>
+    <main class="pagina_login">
+        <header>
+            <img src="../img/logo_padaria.png" alt="logo_padaria" class="logo_padaria">
+            <nav class = "menu">
+                <ul>
+                    <li>
+                        <a href="home.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="produtos.html">PRODUTOS</a>
+                        <ul>
+                            <li><a href="produtos.html">PÃES</a></li>
+                            <li><a href="produtos.html">BOLOS</a></li>
+                            <li><a href="produtos.html">DOCES</a></li>
+                            <li><a href="produtos.html">SALGADOS</a></li>
+                            <li><a href="produtos.html">BEBIDAS</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="sobre.html">SOBRE</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">CONTATO</a>
+                    </li>
+                    <li>
+                        <a href="login.html">LOGIN</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="paginaTopo">
+            <div class="conteudoPagiaTopo">
+                <h1 id="titulo_login">Login</h1>
+                <p>Faça seu login no nosso site de forma prática, rápida e intuitiva logo abaixo.</p>
+            </div>
+        </section>
+
+        <section class="loginReal">
+            <div class="campoUsuarioSenha">
+                <label for="email">E-mail</label>
+                <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Insira seu email"
+                required>
+            </div>
+
+            <div class="campoUsuarioSenha">
+                <label for="senha">Senha</label>
+                <input
+                type="password"
+                id="senha"
+                name="senha"
+                placeholder="Insira sua senha"
+                required>
+            
+                <button
+                type="button"
+                id="senhaInvisivel"
+                aria-pressed="false"
+                title="Mostrar senha"
+                ></button>
+            </div>
+
+            <label class="opcaoLembrar">
+                <input
+                type="checkbox"
+                id="lembrarUsuario">
+                <span>Lembrar usuário e senha</span>
+            </label>
+
+            <button class=""botaoLogin" type="submit">Login</button>
+
+            <p class="esqueciSenha_Cadastro">
+                Esqueceu sua senha? Clique aqui
+            </p>
+
+            <p class="esqueciSenha_Cadastro">
+                Ainda não possui uma conta? Cadastre-se
+            </p>
+        </section>
+        
+        <footer>
+            <div class="colunaFooter">
+                <h3>PadariaTop</h3>
+                <p>Sua melhor escolha.</p>
+            </div>
+
+            <div class="colunaFooter">
+                <nav class="navegacao">
+                    <h3>Navegação</h3>
+                    <li>
+                        <a href="home.html">Home</a>
+                        <a href="produtos.html">Produtos</a>
+                        <a href="Sobre">Sobre</a>
+                    </li>
+                </nav>
+            </div>
+
+            <div class="colunaFooter">
+                <h3>Contato</h3>
+                <p>
+                    Endereço: Rua dos bobos, 0 - Centro, Recife - PE <br>
+                    Telefone: 4002-8922 <br>
+                    E-mail: padariatop@gmail.com
+                </p>
+            </div>
+
+            <p>&copy; 2026 PadariaTop. Todos os direitos reservados.</p>
+        </footer>
+
+    </main>
+</body>
+</html>
