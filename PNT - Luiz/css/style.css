@@ -1,90 +1,10 @@
+/* HEADER */
 header {
     background-color: rgb(139, 68, 35);
 }
 
 .logo_padaria {
     width: 80px;
-}
-
-.paginaTopo {
-    background-color: rgb(253, 221, 183);
-    color: rgb(139, 68, 35);
-    font-size: 35px;
-    padding: 40px;
-}
-
-.loginReal {
-    background-color: rgb(255, 242, 225);
-    text-align: center;
-    padding: 80px;
-}
-
-.nomeEmailSenha {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.campoUsuarioSenha {
-    background-color:rgb(255, 242, 225);
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 12px 14px;
-    border: 1px solid;
-    border-radius: 9px;
-    width: 400px;
-}
-
-.lembrarUsuarioSenha {
-    font-size: 20px;
-}
-
-.botaoLogin {
-    background-color: rgb(139, 68, 35);
-    padding: 12px 14px;
-    width: 300px;
-    border-radius: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.retanguloBrancoLogin {
-    background-color: white;
-    border-radius: 30px;
-    border-color: black;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border: 3px solid;
-}
-
-footer {
-    background-color: rgb(139, 68, 35);
-    padding-top:40px;
-    font-size: 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-}
-
-.navegacao {
-    list-style: none;
-}
-
-.navegacao li a{
-    text-decoration: none;
-    color: black;
-    display: block;
-    margin-top: 8px;
-}
-
-.direitosAutorais {
-    background-color: rgb(139, 68, 35);
-    text-align: center;
-    padding: 20px;
-    margin: 0px;
 }
 
 /* MENU COM O SUBMENU */
@@ -140,6 +60,114 @@ ul li:focus-within > ul,
 ul li ul:hover > ul,
 ul li ul:focus > ul {
     visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+/* FOOTER */
+footer {
+    background-color: rgb(139, 68, 35);
+    padding-top:40px;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.navegacao {
+    list-style: none;
+}
+
+.navegacao li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-top: 8px;
+}
+
+.direitosAutorais {
+    background-color: rgb(139, 68, 35);
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+
+/* PAGINA LOGIN */
+.paginaTopoLogin {
+    background-color: rgb(253, 221, 183);
+    color: rgb(139, 68, 35);
+    font-size: 35px;
+    padding: 40px;
+}
+
+.loginReal {
+    background-color: rgb(255, 242, 225);
+    text-align: center;
+    padding: 80px;
+}
+
+.retanguloBrancoLogin {
+    background-color: white;
+    border-radius: 30px;
+    border-color: black;
+    padding: 100px;
+    border: 3px solid;
+}
+
+.nomeEmailSenha {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.campoUsuarioSenha {
+    background-color:rgb(255, 242, 225);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 12px 14px;
+    border: 1px solid;
+    border-radius: 9px;
+    width: 400px;
+}
+
+.lembrarUsuarioSenha {
+    font-size: 20px;
+}
+
+.botaoLogin {
+    background-color: rgb(139, 68, 35);
+    padding: 12px 14px;
+    width: 300px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* PAGINA HOME */
+
+
+/* PAGINA PRODUTOS */
+
+
+/* PAGINA SOBRE */
+.paginaTopoSobre {
+    background-color: rgb(253, 221, 183);
+    color: rgb(139, 68, 35);
+    font-size: 30px;
+    padding: 40px;
+}
+
+/* PAGINA CONTATO */
+.paginaTopoContato {
+    background-color: rgb(253, 221, 183);
+    color: rgb(139, 68, 35);
+    font-size: 35px;
+    padding: 30px;
+}
+
     opacity: 1;
     display: block;
 }
