@@ -11,15 +11,15 @@
 <body>
     <main class="pagina_login">
         <header>
-            <img src="../img/logo_padaria.png" alt="logo_padaria" class="logo_padaria">
             <nav class = "menu">
+                <img src="../img/logo_padaria.png" alt="logo_padaria" class="logo_padaria">
                 <ul>
                     <li>
                         <a href="home.html">HOME</a>
                     </li>
                     <li>
                         <a href="produtos.html">PRODUTOS</a>
-                        <ul>
+                        <ul class="submenu">
                             <li><a href="produtos.html">PÃES</a></li>
                             <li><a href="produtos.html">BOLOS</a></li>
                             <li><a href="produtos.html">DOCES</a></li>
@@ -41,56 +41,53 @@
         </header>
         
         <section class="paginaTopo">
-            <div class="conteudoPagiaTopo">
+            <div class="conteudoPaginaTopo">
                 <h1 id="titulo_login">Login</h1>
                 <p>Faça seu login no nosso site de forma prática, rápida e intuitiva logo abaixo.</p>
             </div>
         </section>
 
         <section class="loginReal">
-            <div class="campoUsuarioSenha">
-                <label for="email">E-mail</label>
-                <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Insira seu email"
-                required>
-            </div>
+            <section class="retanguloBrancoLogin">
+                <label for="email" class="nomeEmailSenha">E-mail</label>
+                <div>
+                    <input class="campoUsuarioSenha"
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Insira seu email"
+                    required>
+                </div>
+                
+                <label for="senha" class="nomeEmailSenha">Senha</label>
+                <div>
+                    <input class="campoUsuarioSenha"
+                    type="password"
+                    id="senha"
+                    name="senha"
+                    placeholder="Insira sua senha"
+                    required>
 
-            <div class="campoUsuarioSenha">
-                <label for="senha">Senha</label>
-                <input
-                type="password"
-                id="senha"
-                name="senha"
-                placeholder="Insira sua senha"
-                required>
-            
-                <button
-                type="button"
-                id="senhaInvisivel"
-                aria-pressed="false"
-                title="Mostrar senha"
-                ></button>
-            </div>
+                </div>
 
-            <label class="opcaoLembrar">
-                <input
-                type="checkbox"
-                id="lembrarUsuario">
-                <span>Lembrar usuário e senha</span>
-            </label>
+                <label class="lembrarUsuarioSenha">
+                    <input
+                    type="checkbox"
+                    id="lembrarUsuario">
+                    <span>Lembrar usuário e senha</span>
+                </label>
+                <br>
+                
+                <button class="botaoLogin" type="submit">Login</button>
 
-            <button class=""botaoLogin" type="submit">Login</button>
+                <p class="esqueciSenha_Cadastro">
+                    <a  href="esquecisenha.html">Esqueceu sua senha? Clique aqui</a>
+                </p>
 
-            <p class="esqueciSenha_Cadastro">
-                Esqueceu sua senha? Clique aqui
-            </p>
-
-            <p class="esqueciSenha_Cadastro">
-                Ainda não possui uma conta? Cadastre-se
-            </p>
+                <p class="esqueciSenha_Cadastro">
+                    <a href="cadastro.html">Ainda não possui uma conta? Cadastre-se</a>
+                </p>
+            </section>
         </section>
         
         <footer>
@@ -105,7 +102,7 @@
                     <li>
                         <a href="home.html">Home</a>
                         <a href="produtos.html">Produtos</a>
-                        <a href="Sobre">Sobre</a>
+                        <a href="sobre.html">Sobre</a>
                     </li>
                 </nav>
             </div>
@@ -118,10 +115,11 @@
                     E-mail: padariatop@gmail.com
                 </p>
             </div>
-
-            <p>&copy; 2026 PadariaTop. Todos os direitos reservados.</p>
         </footer>
 
+        <p class="direitosAutorais">
+            &copy; 2026 PadariaTop. Todos os direitos reservados.
+        </p>
     </main>
 </body>
 </html>
